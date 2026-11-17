@@ -1,0 +1,11 @@
+{
+  "name": "ai-log-analyzer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "pnpm --filter ./frontend dev",
+    "dev:backend": "pnpm --filter ./backend dev",
+    "build:frontend": "pnpm --filter ./frontend build",
+    "typecheck:backend": "pnpm --filter ./backend typecheck"
+  }
+}
